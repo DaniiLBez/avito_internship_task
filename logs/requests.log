@@ -1,0 +1,93 @@
+{"time":"2023-12-14T21:28:15.299670862Z", "method":"POST","uri":"/auth/sign-up", "status":500,"error":""}
+{"time":"2023-12-14T21:30:58.04913358Z", "method":"POST","uri":"/auth/sign-up", "status":500,"error":""}
+{"time":"2023-12-14T21:33:58.873341753Z", "method":"POST","uri":"/auth/sign-up", "status":500,"error":"cannot create user"}
+{"time":"2023-12-14T22:02:31.827300718Z", "method":"POST","uri":"/auth/sign-up", "status":500,"error":"cannot create user"}
+{"time":"2023-12-14T22:02:49.367678144Z", "method":"POST","uri":"/auth/sign-up", "status":500,"error":"cannot create user"}
+{"time":"2023-12-14T22:06:27.245247829Z", "method":"POST","uri":"/auth/sign-up", "status":500,"error":"cannot create user"}
+{"time":"2023-12-14T22:44:41.046158281Z", "method":"POST","uri":"/auth/sign-up", "status":500,"error":"cannot create user"}
+{"time":"2023-12-14T22:54:36.958817355Z", "method":"POST","uri":"/auth/sign-up", "status":201,"error":""}
+{"time":"2023-12-14T22:59:09.977027645Z", "method":"GET","uri":"/user/1", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-14T23:00:23.632467856Z", "method":"GET","uri":"/users/1", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-14T23:01:10.476148957Z", "method":"GET","uri":"/user/0", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-14T23:01:12.950791396Z", "method":"GET","uri":"/user/1", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-14T23:01:40.498129889Z", "method":"GET","uri":"/user/?username=Danik", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-14T23:02:06.407141605Z", "method":"POST","uri":"/auth/sign-up", "status":201,"error":""}
+{"time":"2023-12-14T23:03:06.195069526Z", "method":"GET","uri":"/api/v1/user/1", "status":401,"error":""}
+{"time":"2023-12-14T23:03:57.646841219Z", "method":"GET","uri":"/auth/sign-in", "status":405,"error":"code=405, message=Method Not Allowed"}
+{"time":"2023-12-14T23:04:02.865442643Z", "method":"POST","uri":"/auth/sign-in", "status":400,"error":"field password must contain at least 1 uppercase letter(s)"}
+{"time":"2023-12-14T23:04:28.788766611Z", "method":"POST","uri":"/auth/sign-up", "status":201,"error":""}
+{"time":"2023-12-14T23:04:35.785108154Z", "method":"POST","uri":"/auth/sign-in", "status":200,"error":""}
+{"time":"2023-12-14T23:06:14.370583957Z", "method":"GET","uri":"/auth/api/v1/user/1", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-14T23:06:54.448689321Z", "method":"GET","uri":"/api/v1/user/1", "status":200,"error":""}
+{"time":"2023-12-14T23:07:04.601618853Z", "method":"GET","uri":"/api/v1/user/2", "status":200,"error":""}
+{"time":"2023-12-14T23:07:22.937964411Z", "method":"GET","uri":"/api/v1/user?username=DaniK", "status":400,"error":""}
+{"time":"2023-12-14T23:08:09.595604235Z", "method":"GET","uri":"/api/v1/user/?username=DaniK", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-14T23:08:14.901682392Z", "method":"GET","uri":"/api/v1/user?username=DaniK", "status":400,"error":""}
+{"time":"2023-12-14T23:08:29.904891582Z", "method":"GET","uri":"/api/v1/user?username=", "status":400,"error":""}
+{"time":"2023-12-14T23:08:51.004910466Z", "method":"GET","uri":"/api/v1/user?username=DanikK", "status":400,"error":""}
+{"time":"2023-12-14T23:08:55.747548259Z", "method":"GET","uri":"/api/v1/user?username=DaniK", "status":400,"error":""}
+{"time":"2023-12-14T23:11:44.144212021Z", "method":"GET","uri":"/api/v1/slug/create", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-14T23:11:49.340876172Z", "method":"POST","uri":"/api/v1/slug/create", "status":500,"error":"cannot create slug"}
+{"time":"2023-12-14T23:13:08.045147477Z", "method":"POST","uri":"/api/v1/slug/create", "status":201,"error":""}
+{"time":"2023-12-14T23:14:42.103186741Z", "method":"POST","uri":"/api/v1/slug/add", "status":400,"error":"field slugs-to-add is required"}
+{"time":"2023-12-14T23:15:00.096980183Z", "method":"POST","uri":"/api/v1/slug/add", "status":200,"error":""}
+{"time":"2023-12-14T23:15:16.983858034Z", "method":"GET","uri":"/api/v1/slug/active/1", "status":200,"error":""}
+{"time":"2023-12-14T23:18:02.721754883Z", "method":"POST","uri":"/api/v1/slug/add", "status":200,"error":""}
+{"time":"2023-12-14T23:21:03.600085987Z", "method":"POST","uri":"/api/v1/slug/delete/1", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-14T23:21:53.768307455Z", "method":"POST","uri":"/api/v1/slug/delete/", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-14T23:22:19.292521054Z", "method":"POST","uri":"/api/v1/slug/delete", "status":200,"error":""}
+{"time":"2023-12-15T14:42:18.588827645Z", "method":"POST","uri":"/auth/sign-up", "status":201,"error":""}
+{"time":"2023-12-15T14:43:10.634064202Z", "method":"POST","uri":"/auth/sign-in", "status":200,"error":""}
+{"time":"2023-12-15T14:44:34.124663563Z", "method":"POST","uri":"/api/v1/slug/create", "status":201,"error":""}
+{"time":"2023-12-15T14:45:40.324716064Z", "method":"POST","uri":"/api/v1/slug/add", "status":200,"error":""}
+{"time":"2023-12-15T15:05:01.418538913Z", "method":"POST","uri":"/auth/sign-up", "status":201,"error":""}
+{"time":"2023-12-15T15:05:06.331019298Z", "method":"POST","uri":"/auth/sign-in", "status":200,"error":""}
+{"time":"2023-12-15T15:05:48.791905349Z", "method":"POST","uri":"/api/v1/slug/create", "status":201,"error":""}
+{"time":"2023-12-15T15:06:39.235509889Z", "method":"POST","uri":"/api/v1/slug/add", "status":400,"error":"field user-id is required"}
+{"time":"2023-12-15T15:06:48.094885441Z", "method":"POST","uri":"/api/v1/slug/add", "status":500,"error":"MembershipRepo.AddUserToSlug - r.Pool.Exec: ERROR: insert or update on table \"membership\" violates foreign key constraint \"membership_slug_id_fkey\" (SQLSTATE 23503)"}
+{"time":"2023-12-15T15:14:10.12428159Z", "method":"POST","uri":"/api/v1/slug/add", "status":500,"error":"MembershipRepo.AddUserToSlug - r.Pool.Exec: ERROR: insert or update on table \"membership\" violates foreign key constraint \"membership_slug_id_fkey\" (SQLSTATE 23503)"}
+{"time":"2023-12-15T15:15:59.748110023Z", "method":"GET","uri":"/api/v1/slug/active/1", "status":200,"error":""}
+{"time":"2023-12-15T15:18:08.213830208Z", "method":"GET","uri":"/api/v1/slug/active/1", "status":500,"error":""}
+{"time":"2023-12-15T15:20:45.868069115Z", "method":"GET","uri":"/api/v1/user/1", "status":200,"error":""}
+{"time":"2023-12-15T15:22:17.874216171Z", "method":"POST","uri":"/api/v1/slug/delete", "status":200,"error":""}
+{"time":"2023-12-15T19:56:25.933285317Z", "method":"POST","uri":"/api/v1/auth/sign-up", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-15T19:57:01.388364632Z", "method":"POST","uri":"/api/auth/sign-up", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-15T19:57:10.384408861Z", "method":"POST","uri":"/auth/sign-up", "status":500,"error":"cannot create user"}
+{"time":"2023-12-15T19:58:55.202494091Z", "method":"POST","uri":"/auth/sign-up", "status":201,"error":""}
+{"time":"2023-12-15T19:59:01.449275715Z", "method":"POST","uri":"/auth/sign-in", "status":200,"error":""}
+{"time":"2023-12-15T19:59:39.5186323Z", "method":"POST","uri":"/auth/api/v1/slug/create", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-15T19:59:44.979456698Z", "method":"POST","uri":"/auth/api/v1/slugs/create", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-15T19:59:53.386232668Z", "method":"POST","uri":"/api/v1/slug/create", "status":201,"error":""}
+{"time":"2023-12-15T20:00:50.585308462Z", "method":"POST","uri":"/api/v1/slug/add", "status":500,"error":"MembershipRepo.AddUserToSlug - r.Pool.Exec: MembershipRepo.AddUserSlugs - tx.Exec: ERROR: insert or update on table \"membership\" violates foreign key constraint \"membership_slug_id_fkey\" (SQLSTATE 23503)\n"}
+{"time":"2023-12-15T22:34:46.859618334Z", "method":"POST","uri":"/api/auth/sign-up", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-15T22:35:07.90975097Z", "method":"POST","uri":"/auth/sign-up", "status":500,"error":"cannot create user"}
+{"time":"2023-12-15T22:35:38.229168501Z", "method":"POST","uri":"/api/auth/sign-up", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-15T22:36:26.600475066Z", "method":"POST","uri":"/api/auth/sign-up", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-15T22:37:01.471862519Z", "method":"POST","uri":"/api/auth/sign-up", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-15T22:37:13.506356734Z", "method":"POST","uri":"/api/v1/auth/sign-up", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-15T22:37:22.040957371Z", "method":"POST","uri":"/api/auth/sign-up", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-15T22:38:56.60323461Z", "method":"POST","uri":"/api/auth/sign-up", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-15T22:39:44.195786843Z", "method":"POST","uri":"/auth/sign-up", "status":201,"error":""}
+{"time":"2023-12-15T22:39:48.81013915Z", "method":"POST","uri":"/auth/sign-in", "status":200,"error":""}
+{"time":"2023-12-15T22:40:34.533487677Z", "method":"POST","uri":"/api/v1/slug/create", "status":201,"error":""}
+{"time":"2023-12-15T22:41:18.292711944Z", "method":"POST","uri":"/api/v1/slug/add", "status":500,"error":"MembershipRepo.AddUserToSlug - r.Pool.Exec: MembershipRepo.AddUserSlugs - tx.Exec: ERROR: insert or update on table \"membership\" violates foreign key constraint \"membership_slug_id_fkey\" (SQLSTATE 23503)\n"}
+{"time":"2023-12-15T22:53:21.846795789Z", "method":"POST","uri":"/auth/sign-up", "status":400,"error":"user already exist"}
+{"time":"2023-12-15T22:54:34.896008856Z", "method":"POST","uri":"/api/v1/slug/add", "status":500,"error":"MembershipRepo.AddUserToSlug - r.Pool.Exec: MembershipRepo.AddUserSlugs - tx.Exec: ERROR: insert or update on table \"membership\" violates foreign key constraint \"membership_slug_id_fkey\" (SQLSTATE 23503)\n"}
+{"time":"2023-12-15T22:56:56.922329366Z", "method":"POST","uri":"/api/v1/slug/add", "status":500,"error":"MembershipRepo.AddUserToSlug - r.Pool.Exec: MembershipRepo.AddUserSlugs - tx.Exec: ERROR: insert or update on table \"membership\" violates foreign key constraint \"membership_slug_id_fkey\" (SQLSTATE 23503)\n"}
+{"time":"2023-12-16T22:11:58.145130073Z", "method":"POST","uri":"/auth/sign-up", "status":201,"error":""}
+{"time":"2023-12-16T22:12:03.287005527Z", "method":"POST","uri":"/auth/sign-in", "status":200,"error":""}
+{"time":"2023-12-16T22:12:44.223109191Z", "method":"POST","uri":"/api/v1/slug/create", "status":201,"error":""}
+{"time":"2023-12-16T22:13:28.762078443Z", "method":"POST","uri":"/api/v1/slug/add", "status":500,"error":"MembershipRepo.AddUserToSlug - r.Pool.Exec: MembershipRepo.AddUserSlugs - tx.Exec: ERROR: insert or update on table \"membership\" violates foreign key constraint \"membership_slug_id_fkey\" (SQLSTATE 23503)\n"}
+{"time":"2023-12-16T22:17:37.592027294Z", "method":"POST","uri":"/api/v1/slug/add", "status":500,"error":"MembershipRepo.AddUserToSlug - r.Pool.Exec: MembershipRepo.AddUserSlugs - tx.Exec: ERROR: insert or update on table \"membership\" violates foreign key constraint \"membership_slug_id_fkey\" (SQLSTATE 23503)\n"}
+{"time":"2023-12-16T22:20:31.15122123Z", "method":"POST","uri":"/api/v1/slug/add", "status":500,"error":"MembershipRepo.AddUserToSlug - r.Pool.Exec: MembershipRepo.AddUserSlugs - tx.Exec: ERROR: insert or update on table \"membership\" violates foreign key constraint \"membership_slug_id_fkey\" (SQLSTATE 23503)\n"}
+{"time":"2023-12-16T22:25:47.822818048Z", "method":"POST","uri":"/api/v1/slug/add", "status":500,"error":"MembershipRepo.AddUserToSlug - r.Pool.Exec: MembershipRepo.AddUserSlugs - tx.Exec: ERROR: insert or update on table \"membership\" violates foreign key constraint \"membership_slug_id_fkey\" (SQLSTATE 23503)\n"}
+{"time":"2023-12-16T22:31:51.892403375Z", "method":"POST","uri":"/api/v1/slug/create", "status":201,"error":""}
+{"time":"2023-12-16T22:32:13.061362057Z", "method":"POST","uri":"/api/v1/slug/add", "status":200,"error":""}
+{"time":"2023-12-16T22:33:32.086406333Z", "method":"POST","uri":"/api/v1/slug/active/1", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-16T22:34:49.28493642Z", "method":"GET","uri":"/api/v1/slug/active/1", "status":500,"error":""}
+{"time":"2023-12-16T22:46:49.198657077Z", "method":"GET","uri":"/api/v1/slug/active/1", "status":200,"error":""}
+{"time":"2023-12-16T22:48:07.168936546Z", "method":"GET","uri":"/api/v1/slug/active/1", "status":200,"error":""}
+{"time":"2023-12-16T22:48:57.252903969Z", "method":"GET","uri":"/api/v1/slug/create", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2023-12-16T22:49:01.216700752Z", "method":"POST","uri":"/api/v1/slug/create", "status":201,"error":""}
+{"time":"2023-12-16T22:49:08.612452279Z", "method":"POST","uri":"/api/v1/slug/add", "status":200,"error":""}
+{"time":"2023-12-16T22:49:17.664195551Z", "method":"GET","uri":"/api/v1/slug/active/1", "status":200,"error":""}

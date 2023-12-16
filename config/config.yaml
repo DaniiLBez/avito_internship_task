@@ -1,0 +1,11 @@
+app:
+  name: "trainee task"
+  version: "1.0.0"
+http:
+  port: "8080"
+log:
+  level: "debug"
+postgres:
+  max_pool_size: 20
+jwt:
+  token_ttl: 120m
